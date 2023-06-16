@@ -257,21 +257,20 @@ html.textgrande{
   }
 }
 
-.js [data-scroll="accordion"] dd{
+.js [data-anime="accordion"] dd{
   display: none;
 }
 
-[data-scroll="accordion"] dt::after{
+[data-anime="accordion"] dt::after{
   content: '⤵';
   margin-left: 10px;
 }
 
-[data-scroll="accordion"] dt.ativo:after{
+[data-anime="accordion"] dt.ativo:after{
   content: '⤴';
-  margin-left: 10px;
 }
 
-[data-scroll="accordion"] dd.ativo{
+[data-anime="accordion"] dd.ativo{
   display: block;
   animation: slideDown .5s forwards;
 }
